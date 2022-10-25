@@ -1,4 +1,4 @@
-> The project was carried out in 2020.6 </br>
+> This project was carried out in 2020.6 </br>
 
 # Face Mask Detection
 
