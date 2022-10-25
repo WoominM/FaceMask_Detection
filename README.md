@@ -31,77 +31,10 @@ To download the dataset, please run the following code:
 Default `dest`=`./FaceMaskDataset`
 
 # Methodology
-
-## Single-shot Multibox Detector (SSD)
-
-### Requirement
-To create a new conda environment for SSD, please run:
-
-`conda env create --name ssd -f SSD_env.yml`
-
-### Download Model
-To download pretrained model, please run the follow code:
-
-```
-python SSD/download_model.py --dest=DEST_TO_MODEL
-```
-
-Default `dest` is `"./"`.
-
-### Train
-To train an SSD model, please run:
-
-```
-python SSD/train.py --dest=PATH_TO_DATASET
-                    --limit=NO_OF_IMAGES_TO_PROCESS
-                    --checkpoint=CHECKPOINT_TO_PATH
-```
-
-Default parameters:
-- `dest`=`../FaceMaskDataset`
-- `limit`=`0`
-- `checkpoint`=`"./checkpoint_ssd300.pth.tar"`
-
-### Test
-To evaluate the model and calculate mAPs, please run:
-
-```
-python SSD/eval.py --dest=PATH_TO_DATASET
-                --limit=NO_OF_IMAGES_TO_PROCESS
-                --checkpoint=PATH_TO_CHECKPOINT
-```
-
-Default parameters:
-- `dest`=`../FaceMaskDataset`
-- `limit`=`0`
-- `checkpoint`=`"./checkpoint_ssd300.pth.tar"`
-
-Precision-Recall curves are saved to P_R_curve_face.png and P_R_curve_facemask.png.
-
-### Detect
-To allow object detection, please run:
-
-```
-python SSD/detect.py --limit=NO_OF_IMAGES_FROM_TEST_SET_TO_PROCESS
-                      --image=IMAGE_NAME
-                      --dataset_path=TEST_SET_PATH
-                      --checkpoint=CHECPOINT_PATH
-```
-Default parameters:
-- `limit`=`0`
-- `image`=`nothing`
-- `dataset_path` = `"./FaceMaskDataset/FaceMaskDataset/val"`
-- `checkpoint`=`"./checkpoint_ssd300.pth.tar"`
-
-If there is no image is set, then the detection will run in the 'val' folder of the dataset. Annotated images are stored in "./detect_results".
-
-## YOLOv1, YOLOv2 and Faster RCNN
-
-### NOTE: ON FASTER RCNN, WHILE WE MANAGED TO BUILD THIS MODEL AND IS ABLE TO TRAIN THE MODEL UNTIL THE END, THE RESULTS ARE NOT SATISFYING. HENCE, AFTER TAKING TWO WEEKS TO WORK ON THIS, WE WORK ON OTHER MODELS INSTEAD.
+## YOLOv1, YOLOv2
 
 ### Requirement
 To create a new conda environment for the remaining models, please run:
-
 
 `conda env create --name yolo -f environment.yml`
 
