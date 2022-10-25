@@ -48,7 +48,6 @@ from models import YOLOv1
 from models.YOLOv1 import *
 
 YOLOv1.prediction()
-
 ```
 
 This command will take the first 3 images from test set and make predictions.
