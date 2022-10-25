@@ -111,7 +111,7 @@ Here are some examples of object detection in images not seen during training â€
 ---
 
 <p align="center">
-<img src="./img/mask1.jpg">
+<img src="./img/mask1.png">
 </p>
 
 ---
