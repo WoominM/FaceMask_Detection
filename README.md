@@ -108,16 +108,10 @@ We will be implementing the [Single Shot Multibox Detector (SSD)](https://arxiv.
 
 Here are some examples of object detection in images not seen during training –
 
-<figure class="third">
-    <img src="./img/mask1.png">
-    <img src="./img/mask2.png">
-    <img src="./img/mask3.png">
-figure>
-
 ---
 
 <p align="center">
-<img src="./img/mask1.png">
+<img src="./img/mask1.png" width="200" height="400"/>
 </p>
 
 ---
