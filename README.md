@@ -41,13 +41,13 @@ To train the YOLOv1, please run the following code:
 To see some prediction results, please run the following code:
 
 ```
-python
+>>> python
 
-from models import YOLOv1
+>>> from models import YOLOv1
 
-from models.YOLOv1 import *
+>>> from models.YOLOv1 import *
 
-YOLOv1.prediction()
+>>> YOLOv1.prediction()
 ```
 
 This command will take the first 3 images from test set and make predictions.
