@@ -27,18 +27,8 @@ python models/download_models_weight.py --path=PATH_TO_MODELS
 
 Default `path` is `"./"`.
 
-# Train (YOLOv1)
-To train the YOLOv1, please run the following code:
-
-
-`python`
-
-`from models import YOLOv1`
-
-`YOLOv1.train()`
-
-# Detect Results (YOLOv1)
-To see some prediction results, please run the following code:
+# Train and Evaluate (YOLOv1)
+To train or see some prediction results of the YOLOv1, please run the following code:
 
 ```
 >>> python
@@ -47,6 +37,7 @@ To see some prediction results, please run the following code:
 
 >>> from models.YOLOv1 import *
 
+>>> YOLOv1.train()
 >>> YOLOv1.prediction()
 ```
 
@@ -55,33 +46,26 @@ To make random prediction of 3 images from test set, run:
 
 `YOLOv1.prediction(randpic=True)`
 
-# Train (YOLOv2)
-To train the YOLOv2, please run the following code:
 
-`python`
+# Train and Evaluate (YOLOv2)
+To train or see some prediction results of the YOLOv1, please run the following code:
 
-`from models import YOLOv2`
+```
+>>> python
 
-`from models.YOLOv2 import *`
+>>> from models import YOLOv2
 
-`YOLOv2.train()`
+>>> from models.YOLOv2 import *
 
-# Detect Results (YOLOv2)
-To see some prediction results, please run the following code:
-
-`python`
-
-`from models import YOLOv2`
-
-`from models.YOLOv2 import *`
-
-`YOLOv2.prediction()`
+>>> YOLOv2.train()
+>>> YOLOv2.prediction()
+```
 
 This command will take the first 3 images from test set and make predictions.
 To make random prediction of 3 images from test set, run:
 
-
 `YOLOv2.prediction(randpic=True)`
+
 
 # Visualization
 ---
