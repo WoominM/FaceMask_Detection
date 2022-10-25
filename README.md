@@ -4,7 +4,7 @@
 
 In this time of pandemic, people are constantly wearing masks while travelling outdoors. Hence, there is a need to detect faces with mask worn for security reasons. There are many methods to accomplish this objective. In particular, we will be exploring the YOLOv1 and YOLOv2. 
 
-# Dataset 
+## Dataset 
 
 To download the dataset, please run the following code:
 
@@ -12,7 +12,7 @@ To download the dataset, please run the following code:
 
 Default `dest`=`./FaceMaskDataset`
 
-# Requirement
+## Requirement
 To create a new conda environment for the remaining models, please run:
 
 `conda env create --name yolo -f environment.yml`
@@ -27,7 +27,7 @@ python models/download_models_weight.py --path=PATH_TO_MODELS
 
 Default `path` is `"./"`.
 
-# Train and Evaluate (YOLOv1)
+## Train and Evaluate (YOLOv1)
 To train or see some prediction results of the YOLOv1, please run the following code:
 
 ```
@@ -47,7 +47,7 @@ To make random prediction of 3 images from test set, run:
 `YOLOv1.prediction(randpic=True)`
 
 
-# Train and Evaluate (YOLOv2)
+## Train and Evaluate (YOLOv2)
 To train or see some prediction results of the YOLOv1, please run the following code:
 
 ```
@@ -67,7 +67,7 @@ To make random prediction of 3 images from test set, run:
 `YOLOv2.prediction(randpic=True)`
 
 
-# Visualization
+## Visualization
 ---
 
 <p align="center">
