@@ -103,7 +103,7 @@ To make random prediction of 3 images from test set, run:
 `YOLOv2.prediction(randpic=True)`
 
 
-<!---
+---
 We will be implementing the [Single Shot Multibox Detector (SSD)](https://arxiv.org/abs/1512.02325), a popular, powerful, and especially nimble network for this task. The authors' original implementation can be found [here](https://github.com/weiliu89/caffe/tree/ssd).
 
 Here are some examples of object detection in images not seen during training –
