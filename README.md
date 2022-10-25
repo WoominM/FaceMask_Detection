@@ -111,13 +111,13 @@ Here are some examples of object detection in images not seen during training â€
 ---
 
 <p align="center">
-<img src="./img/000001.jpg">
+<img src="/img/000001.jpg">
 </p>
 
 ---
 
 <p align="center">
-<img src="./img/000022.jpg">
+<img src="path/img/000022.jpg">
 </p>
 
 ---
