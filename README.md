@@ -111,53 +111,13 @@ Here are some examples of object detection in images not seen during training â€
 ---
 
 <p align="center">
-<img src="./img/mask1.png" width="200" height="400"/>
+<img src="./img/mask1.png" width="300" height="300"/>
 </p>
 
 ---
 
 <p align="center">
-<img src="path/img/000022.jpg">
+<img src="./img/unmask1.png" width="300" height="300"/>
 </p>
-
----
-
-<p align="center">
-<img src="./img/000069.jpg">
-</p>
-
----
-
-<p align="center">
-<img src="./img/000082.jpg">
-</p>
-
----
-
-<p align="center">
-<img src="./img/000144.jpg">
-</p>
-
----
-
-<p align="center">
-<img src="./img/000139.jpg">
-</p>
-
----
-
-<p align="center">
-<img src="./img/000116.jpg">
-</p>
-
----
-
-<p align="center">
-<img src="./img/000098.jpg">
-</p>
-
----
-
-There are more examples at the [end of the tutorial](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection#some-more-examples).
 
 ---
